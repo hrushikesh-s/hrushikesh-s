@@ -15,6 +15,11 @@ Most of my code goes into [atomate2](https://github.com/materialsproject/atomate
 3. **Zatom-1: Towards a Multimodal Foundation Model for 3D Molecules and Materials.** A. Morehead et al. arXiv (2026). [arXiv:2602.22251](https://arxiv.org/abs/2602.22251)
 4. **AlabOS: a Python-based reconfigurable workflow management framework for autonomous laboratories.** Y. Fei et al. Digital Discovery (2024). [doi:10.1039/D4DD00129J](https://doi.org/10.1039/D4DD00129J)
 
+### Benchmarks
+
+[mlip-phonon-benchmarks](https://github.com/hrushikesh-s/mlip-phonon-benchmarks) computes phonons from 100 to 900 K with three MACE potentials and compares them with ab initio MD at 300 K.
+It also checks the Born charges and dielectric constants of MACE-Field against DFPT for 50 held-out materials.
+
 ### Workflows in atomate2
 
 | Pull request | Status |
