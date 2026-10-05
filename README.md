@@ -1,9 +1,19 @@
 ## Hi, I'm Hrushikesh
 
+[Google Scholar](https://scholar.google.com/citations?user=Ukq_tbUAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/hrushikesh-s-096965149/) · hpsahasrabuddhe@lbl.gov
+
 I am a PhD candidate in Materials Science and Engineering at UC Berkeley and Lawrence Berkeley National Laboratory, in [Anubhav Jain's group](https://github.com/hackingmaterials).
-I build high-throughput workflows for phonons and thermal properties, with DFT and machine-learned interatomic potentials.
+I work on machine learning for materials at scale.
+I built the Materials Project's Harmonic Phonon Database, with the phonons of about 26,000 inorganic crystals from about 238,000 node-hours on NERSC Perlmutter and NREL Kestrel.
+I benchmark and fine-tune machine-learned interatomic potentials such as MACE for phonons and thermal expansion.
 Most of my code goes into [atomate2](https://github.com/materialsproject/atomate2) and the [Materials Project](https://next-gen.materialsproject.org).
-My PhD work is the Materials Project's Harmonic Phonon Database ([preprint](https://doi.org/10.26434/chemrxiv.15004632/v1)).
+
+### Selected papers
+
+1. **A High-Throughput ab initio Database of Harmonic Phonon Properties for Inorganic Crystals.** H. Sahasrabuddhe et al. ChemRxiv (2026), under review at Scientific Data. [doi:10.26434/chemrxiv.15004632/v1](https://doi.org/10.26434/chemrxiv.15004632/v1)
+2. **Atomate2: modular workflows for materials science.** A. M. Ganose et al. Digital Discovery (2025). [doi:10.1039/D5DD00019J](https://doi.org/10.1039/D5DD00019J)
+3. **Zatom-1: Towards a Multimodal Foundation Model for 3D Molecules and Materials.** A. Morehead et al. arXiv (2026). [arXiv:2602.22251](https://arxiv.org/abs/2602.22251)
+4. **AlabOS: a Python-based reconfigurable workflow management framework for autonomous laboratories.** Y. Fei et al. Digital Discovery (2024). [doi:10.1039/D4DD00129J](https://doi.org/10.1039/D4DD00129J)
 
 ### Workflows in atomate2
 
