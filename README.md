@@ -57,4 +57,4 @@ It also checks the Born charges and dielectric constants of MACE-Field against D
 
 ### On GitHub
 
-![Open-source contributions](https://github-readme-stats.vercel.app/api?username=hrushikesh-s&show_icons=true&hide=stars,commits&show=prs_merged,prs_merged_percentage,reviews&hide_rank=true&hide_border=true&bg_color=00000000&title_color=0f766e&icon_color=14b8a6&text_color=8b949e&custom_title=Open-source%20contributions)
+![Open-source contributions](stats.svg)

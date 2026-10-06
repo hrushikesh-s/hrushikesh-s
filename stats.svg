@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="248" viewBox="0 0 860 248" role="img" aria-label="Merged pull requests per repository">
+<style>:root{--bg:#f6f8fa;--line:#d0d7de;--ink:#1f2328;--muted:#59636e;--bar:#0f8a7e;--track:#e6ebf0}@media (prefers-color-scheme:dark){:root{--bg:#161b22;--line:#30363d;--ink:#e6edf3;--muted:#9198a1;--bar:#2bc4b0;--track:#21262d}}text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.big{font-size:40px;font-weight:600;fill:var(--ink)}.label{font-size:13px;fill:var(--muted)}.head{font-size:12px;font-weight:600;fill:var(--muted);letter-spacing:.08em}.repo{font-size:13px;fill:var(--ink)}.num{font-size:13px;font-weight:600;fill:var(--ink)}</style>
+<rect x="0.5" y="0.5" width="859" height="247" rx="12" fill="var(--bg)" stroke="var(--line)"/>
+<text class="head" x="28" y="40">OPEN-SOURCE CONTRIBUTIONS</text>
+<text class="big" x="28" y="92">25</text>
+<text class="label" x="96" y="86">merged pull requests</text>
+<text class="big" x="28" y="142">6</text>
+<text class="label" x="96" y="136">repositories</text>
+<text class="big" x="28" y="192">4</text>
+<text class="label" x="96" y="186">pull requests in review</text>
+<line x1="300" y1="28" x2="300" y2="220" stroke="var(--line)"/>
+<text class="head" x="330" y="40">MERGED PER REPOSITORY</text>
+<text class="repo" x="330" y="74">materialsproject/atomate2</text>
+<rect x="540" y="64" width="250" height="10" rx="4" fill="var(--track)"/>
+<rect x="540" y="64" width="250.0" height="10" rx="4" fill="var(--bar)"/>
+<text class="num" x="802" y="74">14</text>
+<text class="repo" x="330" y="100">CederGroupHub/alabos</text>
+<rect x="540" y="90" width="250" height="10" rx="4" fill="var(--track)"/>
+<rect x="540" y="90" width="71.4" height="10" rx="4" fill="var(--bar)"/>
+<text class="num" x="802" y="100">4</text>
+<text class="repo" x="330" y="126">materialsproject/matbench</text>
+<rect x="540" y="116" width="250" height="10" rx="4" fill="var(--track)"/>
+<rect x="540" y="116" width="71.4" height="10" rx="4" fill="var(--bar)"/>
+<text class="num" x="802" y="126">4</text>
+<text class="repo" x="330" y="152">materialsproject/emmet</text>
+<rect x="540" y="142" width="250" height="10" rx="4" fill="var(--track)"/>
+<rect x="540" y="142" width="17.9" height="10" rx="4" fill="var(--bar)"/>
+<text class="num" x="802" y="152">1</text>
+<text class="repo" x="330" y="178">materialsproject/fireworks</text>
+<rect x="540" y="168" width="250" height="10" rx="4" fill="var(--track)"/>
+<rect x="540" y="168" width="17.9" height="10" rx="4" fill="var(--bar)"/>
+<text class="num" x="802" y="178">1</text>
+<text class="repo" x="330" y="204">materialsproject/jobflow</text>
+<rect x="540" y="194" width="250" height="10" rx="4" fill="var(--track)"/>
+<rect x="540" y="194" width="17.9" height="10" rx="4" fill="var(--bar)"/>
+<text class="num" x="802" y="204">1</text>
+<text class="label" x="832" y="234" text-anchor="end" font-size="11">updated 2026-10-05</text>
+</svg>
