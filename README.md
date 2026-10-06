@@ -33,7 +33,7 @@ It also checks the Born charges and dielectric constants of MACE-Field against D
 
 | Pull request | Status |
 |---|---|
-| [Force field Born charges and dielectric tensors with MACE-Field (atomate2)](https://github.com/materialsproject/atomate2/pull/1573) | approved |
+| [Force field Born charges and dielectric tensors with MACE-Field (atomate2)](https://github.com/materialsproject/atomate2/pull/1573) | merged Oct 2026 |
 | [JobStore document format as a pydantic model (jobflow)](https://github.com/materialsproject/jobflow/pull/424) | merged Oct 2023 |
 | [Integration of Matbench Discovery (matbench)](https://github.com/materialsproject/matbench/pull/236) | merged Mar 2023 |
 | ["Go to page" navigation in the web GUI (FireWorks)](https://github.com/materialsproject/fireworks/pull/572) | merged Mar 2026 |
@@ -54,3 +54,7 @@ It also checks the Born charges and dielectric constants of MACE-Field against D
 - atomate2: [phonon database preprint in the pheasy docs](https://github.com/materialsproject/atomate2/pull/1551), [Zenodo DOI](https://github.com/materialsproject/atomate2/pull/1211), [ChemRxiv citation](https://github.com/materialsproject/atomate2/pull/1107)
 - matbench: [scaled error formula for classification tasks](https://github.com/materialsproject/matbench/pull/257), [link to Matbench Discovery on the leaderboard](https://github.com/materialsproject/matbench/pull/253)
 - alabos: [tooling to streamline the commit and PR flow](https://github.com/CederGroupHub/alabos/pull/37), [installation docs](https://github.com/CederGroupHub/alabos/pull/46)
+
+### On GitHub
+
+![Open-source contributions](https://github-readme-stats.vercel.app/api?username=hrushikesh-s&show_icons=true&hide=stars,commits&show=prs_merged,prs_merged_percentage,reviews&hide_rank=true&hide_border=true&bg_color=00000000&title_color=0f766e&icon_color=14b8a6&text_color=8b949e&custom_title=Open-source%20contributions)
