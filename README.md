@@ -27,13 +27,17 @@ It also checks the Born charges and dielectric constants of MACE-Field against D
 | [Lattice dynamics workflow using Pheasy](https://github.com/materialsproject/atomate2/pull/1063) | merged Sep 2026 |
 | [Harmonic lattice dynamics workflow using hiPhive](https://github.com/materialsproject/atomate2/pull/1062) | merged Sep 2026 |
 | [Thermal expansion workflow (CTEMaker)](https://github.com/materialsproject/atomate2/pull/1559) | merged Oct 2026 |
-| [Finite-temperature phonon workflow](https://github.com/materialsproject/atomate2/pull/1560) | in review |
+| [Finite-temperature phonon workflow](https://github.com/materialsproject/atomate2/issues/1585) | in review, as a series of PRs |
+| [CALPHAD phase diagrams with ATAT sqs2tdb](https://github.com/materialsproject/atomate2/pull/1574) | in review |
+| [Debye-Waller factors from phonons](https://github.com/materialsproject/atomate2/pull/1580) | in review |
 
 ### New features
 
 | Pull request | Status |
 |---|---|
 | [Force field Born charges and dielectric tensors with MACE-Field (atomate2)](https://github.com/materialsproject/atomate2/pull/1573) | merged Oct 2026 |
+| [Anisotropic Debye-Waller factors in the XRD, neutron and TEM calculators (pymatgen)](https://github.com/materialsproject/pymatgen/pull/4715) | in review |
+| [Seeded Langevin forces and a Nose-Hoover chain NVT preset for ASE MD (atomate2)](https://github.com/materialsproject/atomate2/pull/1587) | in review |
 | [JobStore document format as a pydantic model (jobflow)](https://github.com/materialsproject/jobflow/pull/424) | merged Oct 2023 |
 | [Integration of Matbench Discovery (matbench)](https://github.com/materialsproject/matbench/pull/236) | merged Mar 2023 |
 | ["Go to page" navigation in the web GUI (FireWorks)](https://github.com/materialsproject/fireworks/pull/572) | merged Mar 2026 |
@@ -43,6 +47,10 @@ It also checks the Born charges and dielectric constants of MACE-Field against D
 
 | Pull request | Status |
 |---|---|
+| [Converge the pheasy harmonic LASSO fit (atomate2)](https://github.com/materialsproject/atomate2/pull/1586) | merged Oct 2026 |
+| [Phonon thermal properties from phonopy's sum over the q-point mesh (atomate2)](https://github.com/materialsproject/atomate2/pull/1576) | merged Oct 2026 |
+| [Serialization with pydantic 2.14 (emmet)](https://github.com/materialsproject/emmet/pull/1530) | merged Oct 2026 |
+| [Git dependencies moved to dependency groups, so that atomate2 can be released on PyPI (atomate2)](https://github.com/materialsproject/atomate2/pull/1575) | merged Oct 2026 |
 | [Fix pheasy anharmonic fitting and add fit options (atomate2)](https://github.com/materialsproject/atomate2/pull/1558) | merged Oct 2026 |
 | [Fix the acoustic sum rule in PhononBSDOSDoc (emmet)](https://github.com/materialsproject/emmet/pull/1447) | merged May 2026 |
 | [Fix the Clarke thermal conductivity key between pymatgen and atomate2 (atomate2)](https://github.com/materialsproject/atomate2/pull/1448) | merged Mar 2026 |
