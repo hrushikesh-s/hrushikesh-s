@@ -22,6 +22,8 @@ It also checks the Born charges and dielectric constants of MACE-Field against D
 
 ### Workflows in atomate2
 
+The open and planned atomate2 PRs of our group are listed in [this tracking issue](https://github.com/materialsproject/atomate2/issues/1591).
+
 | Pull request | Status |
 |---|---|
 | [Lattice dynamics workflow using Pheasy](https://github.com/materialsproject/atomate2/pull/1063) | merged Sep 2026 |
@@ -47,6 +49,8 @@ It also checks the Born charges and dielectric constants of MACE-Field against D
 
 | Pull request | Status |
 |---|---|
+| [Thermal displacement matrices on an odd q-point mesh, without the acoustic modes at Gamma (atomate2)](https://github.com/materialsproject/atomate2/pull/1590) | in review |
+| [Unpin pydantic after the emmet-core fix (atomate2)](https://github.com/materialsproject/atomate2/pull/1589) | in review |
 | [Converge the pheasy harmonic LASSO fit (atomate2)](https://github.com/materialsproject/atomate2/pull/1586) | merged Oct 2026 |
 | [Phonon thermal properties from phonopy's sum over the q-point mesh (atomate2)](https://github.com/materialsproject/atomate2/pull/1576) | merged Oct 2026 |
 | [Serialization with pydantic 2.14 (emmet)](https://github.com/materialsproject/emmet/pull/1530) | merged Oct 2026 |
