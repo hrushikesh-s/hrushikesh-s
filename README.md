@@ -38,8 +38,8 @@ The open and planned atomate2 PRs of our group are listed in [this tracking issu
 | Pull request | Status |
 |---|---|
 | [Force field Born charges and dielectric tensors with MACE-Field (atomate2)](https://github.com/materialsproject/atomate2/pull/1573) | merged Oct 2026 |
-| [Anisotropic Debye-Waller factors in the XRD, neutron and TEM calculators (pymatgen)](https://github.com/materialsproject/pymatgen/pull/4715) | in review |
-| [Seeded Langevin forces and a Nose-Hoover chain NVT preset for ASE MD (atomate2)](https://github.com/materialsproject/atomate2/pull/1587) | in review |
+| [Anisotropic Debye-Waller factors in the XRD, neutron and TEM calculators (pymatgen)](https://github.com/materialsproject/pymatgen/pull/4715) | merged Oct 2026 |
+| [Seeded Langevin forces and a Nose-Hoover chain NVT preset for ASE MD (atomate2)](https://github.com/materialsproject/atomate2/pull/1587) | merged Oct 2026 |
 | [JobStore document format as a pydantic model (jobflow)](https://github.com/materialsproject/jobflow/pull/424) | merged Oct 2023 |
 | [Integration of Matbench Discovery (matbench)](https://github.com/materialsproject/matbench/pull/236) | merged Mar 2023 |
 | ["Go to page" navigation in the web GUI (FireWorks)](https://github.com/materialsproject/fireworks/pull/572) | merged Mar 2026 |
