@@ -50,7 +50,7 @@ The open and planned atomate2 PRs of our group are listed in [this tracking issu
 | Pull request | Status |
 |---|---|
 | [Thermal displacement matrices on an odd q-point mesh, without the acoustic modes at Gamma (atomate2)](https://github.com/materialsproject/atomate2/pull/1590) | in review |
-| [Unpin pydantic after the emmet-core fix (atomate2)](https://github.com/materialsproject/atomate2/pull/1589) | in review |
+| [Unpin pydantic after the emmet-core fix (atomate2)](https://github.com/materialsproject/atomate2/pull/1589) | merged Oct 2026 |
 | [Converge the pheasy harmonic LASSO fit (atomate2)](https://github.com/materialsproject/atomate2/pull/1586) | merged Oct 2026 |
 | [Phonon thermal properties from phonopy's sum over the q-point mesh (atomate2)](https://github.com/materialsproject/atomate2/pull/1576) | merged Oct 2026 |
 | [Serialization with pydantic 2.14 (emmet)](https://github.com/materialsproject/emmet/pull/1530) | merged Oct 2026 |
