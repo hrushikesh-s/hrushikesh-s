@@ -30,7 +30,7 @@ The open and planned atomate2 PRs of our group are listed in [this tracking issu
 | [Harmonic lattice dynamics workflow using hiPhive](https://github.com/materialsproject/atomate2/pull/1062) | merged Sep 2026 |
 | [Thermal expansion workflow (CTEMaker)](https://github.com/materialsproject/atomate2/pull/1559) | merged Oct 2026 |
 | [Finite-temperature phonon workflow](https://github.com/materialsproject/atomate2/issues/1585) | in review, as a series of PRs |
-| [CALPHAD phase diagrams with ATAT sqs2tdb](https://github.com/materialsproject/atomate2/pull/1574) | in review |
+| [CALPHAD phase diagrams with ATAT sqs2tdb](https://github.com/materialsproject/atomate2/pull/1574) | draft |
 | [Debye-Waller factors from phonons](https://github.com/materialsproject/atomate2/pull/1580) | in review |
 
 ### New features
@@ -49,7 +49,7 @@ The open and planned atomate2 PRs of our group are listed in [this tracking issu
 
 | Pull request | Status |
 |---|---|
-| [Thermal displacement matrices on an odd q-point mesh, without the acoustic modes at Gamma (atomate2)](https://github.com/materialsproject/atomate2/pull/1590) | in review |
+| [Thermal displacement matrices on an odd q-point mesh, without the acoustic modes at Gamma (atomate2)](https://github.com/materialsproject/atomate2/pull/1590) | merged Oct 2026 |
 | [Unpin pydantic after the emmet-core fix (atomate2)](https://github.com/materialsproject/atomate2/pull/1589) | merged Oct 2026 |
 | [Converge the pheasy harmonic LASSO fit (atomate2)](https://github.com/materialsproject/atomate2/pull/1586) | merged Oct 2026 |
 | [Phonon thermal properties from phonopy's sum over the q-point mesh (atomate2)](https://github.com/materialsproject/atomate2/pull/1576) | merged Oct 2026 |
