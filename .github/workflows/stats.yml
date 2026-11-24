@@ -14,20 +14,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Write stats.svg
+      - name: Write stats.svg and ecosystem.svg
         run: python3 scripts/stats_card.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Update the pull request status in README.md
+      - name: Update the pull request status in CONTRIBUTIONS.md
         run: python3 scripts/update_pr_status.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Update GitLab MRs in README.md
+      - name: Update GitLab MRs in CONTRIBUTIONS.md
         run: python3 scripts/update_gitlab_mrs.py
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stats.svg README.md
-          git diff --cached --quiet || git commit -m "Update stats card and pull request status"
+          git add stats.svg ecosystem.svg CONTRIBUTIONS.md
+          git diff --cached --quiet || git commit -m "Update profile cards and contribution status"
           git push

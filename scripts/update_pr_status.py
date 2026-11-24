@@ -1,4 +1,4 @@
-"""Fill in the status column of the pull request tables in README.md.
+"""Fill in the status column of the pull request tables in CONTRIBUTIONS.md.
 
 A table row with exactly one pull request link gets its status from the GitHub
 API: "merged <month> <year>", "in review", "draft" or "closed". Rows with no
@@ -32,12 +32,12 @@ def status(owner: str, repo: str, number: str) -> str:
     return "draft" if pr["draft"] else "in review"
 
 
-readme = Path("README.md")
-lines = readme.read_text().splitlines()
+doc = Path("CONTRIBUTIONS.md")
+lines = doc.read_text().splitlines()
 for i, line in enumerate(lines):
     links = PR_LINK.findall(line)
     if line.startswith("| ") and len(links) == 1:
         cells = line.split(" | ")
         cells[-1] = status(*links[0]) + " |"
         lines[i] = " | ".join(cells)
-readme.write_text("\n".join(lines) + "\n")
+doc.write_text("\n".join(lines) + "\n")

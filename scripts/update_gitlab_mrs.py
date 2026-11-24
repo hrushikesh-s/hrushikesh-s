@@ -13,7 +13,7 @@ from pathlib import Path
 
 PROJECTS = ["cplin/pheasy"]
 AUTHOR = "hpsahasrabuddhe"
-README_PATH = Path(__file__).resolve().parents[1] / "README.md"
+TARGET_PATH = Path(__file__).resolve().parents[1] / "CONTRIBUTIONS.md"
 START_MARKER = "<!-- GITLAB-MRS:START -->"
 END_MARKER = "<!-- GITLAB-MRS:END -->"
 
@@ -76,22 +76,22 @@ def main() -> int:
         all_mrs.extend(fetch_mrs(project))
 
     table = build_table(all_mrs)
-    readme = README_PATH.read_text(encoding="utf-8")
+    doc = TARGET_PATH.read_text(encoding="utf-8")
     pattern = re.compile(
         rf"{re.escape(START_MARKER)}.*?{re.escape(END_MARKER)}",
         re.DOTALL,
     )
-    if not pattern.search(readme):
+    if not pattern.search(doc):
         raise SystemExit(
-            f"Markers {START_MARKER} .. {END_MARKER} not found in {README_PATH}"
+            f"Markers {START_MARKER} .. {END_MARKER} not found in {TARGET_PATH}"
         )
 
-    updated = pattern.sub(f"{START_MARKER}\n{table}\n{END_MARKER}", readme, count=1)
-    if updated != readme:
-        README_PATH.write_text(updated, encoding="utf-8")
-        print("README.md updated.")
+    updated = pattern.sub(f"{START_MARKER}\n{table}\n{END_MARKER}", doc, count=1)
+    if updated != doc:
+        TARGET_PATH.write_text(updated, encoding="utf-8")
+        print(f"{TARGET_PATH.name} updated.")
     else:
-        print("README.md already up to date.")
+        print(f"{TARGET_PATH.name} already up to date.")
     return 0
 
 
