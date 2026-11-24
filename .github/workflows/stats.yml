@@ -2,7 +2,8 @@ name: Update profile
 
 on:
   schedule:
-    - cron: "17 6 * * *"
+    # 1 am, 7 am, 1 pm, and 7 pm PST (UTC-8)
+    - cron: "0 3,9,15,21 * * *"
   workflow_dispatch:
 
 permissions:
@@ -21,6 +22,8 @@ jobs:
         run: python3 scripts/update_pr_status.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update GitLab MRs in README.md
+        run: python3 scripts/update_gitlab_mrs.py
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"

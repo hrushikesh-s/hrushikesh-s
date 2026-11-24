@@ -13,6 +13,8 @@ from datetime import date
 from html import escape
 
 USER = "hrushikesh-s"
+GITLAB_USER = "hpsahasrabuddhe"
+GITLAB_PROJECTS = ["cplin/pheasy"]
 MAX_BARS = 6
 
 
@@ -39,6 +41,31 @@ def repo_counts(query: str) -> Counter:
     """Count pull requests per repository, leaving out USER's own repositories."""
     repos = [item["repository_url"].split("/repos/")[1] for item in search(query)]
     return Counter(repo for repo in repos if not repo.startswith(f"{USER}/"))
+
+
+def gitlab_counts() -> tuple[Counter, int]:
+    """Count merged and open GitLab MRs for GITLAB_USER in GITLAB_PROJECTS."""
+    merged, n_open = Counter(), 0
+    headers = {"User-Agent": f"{USER}-profile-readme"}
+    token = os.environ.get("GITLAB_TOKEN", "").strip()
+    if token:
+        headers["PRIVATE-TOKEN"] = token
+    for project in GITLAB_PROJECTS:
+        encoded = urllib.parse.quote(project, safe="")
+        params = urllib.parse.urlencode(
+            {"author_username": GITLAB_USER, "state": "all", "per_page": 100}
+        )
+        url = f"https://gitlab.com/api/v4/projects/{encoded}/merge_requests?{params}"
+        with urllib.request.urlopen(
+            urllib.request.Request(url, headers=headers), timeout=30
+        ) as response:
+            mrs = json.load(response)
+        for mr in mrs:
+            if mr.get("state") == "merged":
+                merged[project] += 1
+            elif mr.get("state") == "opened":
+                n_open += 1
+    return merged, n_open
 
 
 def card(merged: Counter, n_open: int) -> str:
@@ -80,7 +107,7 @@ def card(merged: Counter, n_open: int) -> str:
     parts.append('<text class="head" x="330" y="40">MERGED PER REPOSITORY</text>')
     rows = merged.most_common(MAX_BARS)
     top = rows[0][1] if rows else 1
-    bar_x, bar_w = 540, 250
+    bar_x, bar_w = 570, 220
     for idx, (repo, count) in enumerate(rows):
         y = 70 + idx * 26
         length = max(8, bar_w * count / top)
@@ -103,5 +130,8 @@ def card(merged: Counter, n_open: int) -> str:
 if __name__ == "__main__":
     merged = repo_counts(f"author:{USER} type:pr is:merged")
     n_open = sum(repo_counts(f"author:{USER} type:pr is:open").values())
+    gl_merged, gl_open = gitlab_counts()
+    merged.update(gl_merged)
+    n_open += gl_open
     with open("stats.svg", "w") as file:
         file.write(card(merged, n_open))

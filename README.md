@@ -78,6 +78,6 @@ The open and planned atomate2 PRs of our group are listed in [this tracking issu
 - matbench: [scaled error formula for classification tasks](https://github.com/materialsproject/matbench/pull/257), [link to Matbench Discovery on the leaderboard](https://github.com/materialsproject/matbench/pull/253)
 - alabos: [tooling to streamline the commit and PR flow](https://github.com/CederGroupHub/alabos/pull/37), [installation docs](https://github.com/CederGroupHub/alabos/pull/46)
 
-### On GitHub
+### Open-source contributions
 
 ![Open-source contributions](stats.svg)

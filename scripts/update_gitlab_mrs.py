@@ -13,7 +13,7 @@ from pathlib import Path
 
 PROJECTS = ["cplin/pheasy"]
 AUTHOR = "hpsahasrabuddhe"
-README_PATH = Path(__file__).resolve().parents[2] / "README.md"
+README_PATH = Path(__file__).resolve().parents[1] / "README.md"
 START_MARKER = "<!-- GITLAB-MRS:START -->"
 END_MARKER = "<!-- GITLAB-MRS:END -->"
 
@@ -82,7 +82,9 @@ def main() -> int:
         re.DOTALL,
     )
     if not pattern.search(readme):
-        raise SystemExit(f"Markers {START_MARKER} .. {END_MARKER} not found in {README_PATH}")
+        raise SystemExit(
+            f"Markers {START_MARKER} .. {END_MARKER} not found in {README_PATH}"
+        )
 
     updated = pattern.sub(f"{START_MARKER}\n{table}\n{END_MARKER}", readme, count=1)
     if updated != readme:
