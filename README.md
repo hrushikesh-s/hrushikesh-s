@@ -1,6 +1,6 @@
 ## Hi, I'm Hrushikesh
 
-[Google Scholar](https://scholar.google.com/citations?user=Ukq_tbUAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/hrushikesh-s-096965149/) · hpsahasrabuddhe@lbl.gov
+[Google Scholar](https://scholar.google.com/citations?user=Ukq_tbUAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/hrushikesh-s-096965149/) · [GitLab](https://gitlab.com/hpsahasrabuddhe) · hpsahasrabuddhe@lbl.gov
 
 I am a PhD candidate in Materials Science and Engineering at UC Berkeley and Lawrence Berkeley National Laboratory, in [Anubhav Jain's group](https://github.com/hackingmaterials).
 I work on machine learning for materials at scale.
@@ -60,6 +60,17 @@ The open and planned atomate2 PRs of our group are listed in [this tracking issu
 | [Fix the Clarke thermal conductivity key between pymatgen and atomate2 (atomate2)](https://github.com/materialsproject/atomate2/pull/1448) | merged Mar 2026 |
 | Pydantic v2 migration of atomate2 ([#558](https://github.com/materialsproject/atomate2/pull/558), [#565](https://github.com/materialsproject/atomate2/pull/565), [#566](https://github.com/materialsproject/atomate2/pull/566), [#567](https://github.com/materialsproject/atomate2/pull/567)) | merged Oct 2023 |
 | [Use dumpfn as the default JSON writer (matbench)](https://github.com/materialsproject/matbench/pull/251) | merged Apr 2023 |
+
+### Contributions to Pheasy (GitLab)
+
+<!-- GITLAB-MRS:START -->
+| Merge request | Status |
+|---|---|
+| [Validate --dim/--magmom with --scell, accept list MAGMOM, and add tests (`!5`)](https://gitlab.com/cplin/pheasy/-/merge_requests/5) | merged Nov 2026 |
+| [Add support for reading displacement and force matrices from .npy files (`!1`)](https://gitlab.com/cplin/pheasy/-/merge_requests/1) | merged Nov 2026 |
+| [Add 3D polar dipole-dipole Born-Huang and Huang rotational invariance (`!7`)](https://gitlab.com/cplin/pheasy/-/merge_requests/7) | in review |
+| [Speed up sensing matrix construction and fix batched accumulation (`!6`)](https://gitlab.com/cplin/pheasy/-/merge_requests/6) | in review |
+<!-- GITLAB-MRS:END -->
 
 ### Documentation and citations
 
