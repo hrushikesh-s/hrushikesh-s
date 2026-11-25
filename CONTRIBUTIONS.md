@@ -60,10 +60,11 @@ The open and planned atomate2 PRs of our group are listed in [this tracking issu
 <!-- GITLAB-MRS:START -->
 | Merge request | Status |
 |---|---|
+| [Speed up sensing matrix construction and fix batched accumulation (`!6`)](https://gitlab.com/cplin/pheasy/-/merge_requests/6) | merged Nov 2026 |
 | [Validate --dim/--magmom with --scell, accept list MAGMOM, and add tests (`!5`)](https://gitlab.com/cplin/pheasy/-/merge_requests/5) | merged Nov 2026 |
 | [Add support for reading displacement and force matrices from .npy files (`!1`)](https://gitlab.com/cplin/pheasy/-/merge_requests/1) | merged Nov 2026 |
+| [Support ASE >= 3.22.1 with Quantum ESPRESSO ibrav != 0 (`!8`)](https://gitlab.com/cplin/pheasy/-/merge_requests/8) | in review |
 | [Add 3D polar dipole-dipole Born-Huang and Huang rotational invariance (`!7`)](https://gitlab.com/cplin/pheasy/-/merge_requests/7) | in review |
-| [Speed up sensing matrix construction and fix batched accumulation (`!6`)](https://gitlab.com/cplin/pheasy/-/merge_requests/6) | in review |
 <!-- GITLAB-MRS:END -->
 
 ### Documentation and citations
