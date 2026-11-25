@@ -6,7 +6,7 @@
 <text class="label" x="98" y="82">merged PRs &amp; MRs</text>
 <text class="big" x="28" y="136">10</text>
 <text class="label" x="98" y="130">external repositories</text>
-<text class="big" x="28" y="184">26</text>
+<text class="big" x="28" y="184">27</text>
 <text class="label" x="98" y="178">in review</text>
 <line x1="296" y1="26" x2="296" y2="210" stroke="var(--line)"/>
 <text class="head" x="324" y="38">MERGED PER REPOSITORY (GITHUB + GITLAB)</text>
