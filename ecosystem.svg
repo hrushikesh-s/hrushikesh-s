@@ -16,7 +16,7 @@
 <rect x="0" y="0" width="184" height="134" rx="8" fill="var(--page)" stroke="var(--bar)" stroke-width="1.5"/>
 <text x="14" y="24" fill="var(--bar)" font-size="10.5" font-weight="600" letter-spacing="0.6">WORKFLOWS</text>
 <text x="14" y="50" fill="var(--ink)" font-size="13" font-weight="600">atomate2</text>
-<text x="14" y="67" fill="var(--bar)" font-size="11">29 merged · 16 in review</text>
+<text x="14" y="67" fill="var(--bar)" font-size="11">29 merged · 18 in review</text>
 <line x1="14" y1="80" x2="170" y2="80" stroke="var(--line)"/>
 <text x="14" y="101" fill="var(--ink)" font-size="12">Phonons · CTE · DWF</text>
 <text x="14" y="118" fill="var(--muted)" font-size="11">Finite-T · CALPHAD</text>
