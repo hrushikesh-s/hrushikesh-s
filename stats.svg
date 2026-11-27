@@ -2,7 +2,7 @@
 <style>:root{--bg:#f6f8fa;--page:#ffffff;--line:#d0d7de;--ink:#1f2328;--muted:#59636e;--bar:#0f8a7e;--accent2:#0969da;--track:#e6ebf0}@media (prefers-color-scheme:dark){:root{--bg:#161b22;--page:#0d1117;--line:#30363d;--ink:#e6edf3;--muted:#9198a1;--bar:#2bc4b0;--accent2:#58a6ff;--track:#21262d}}text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.big{font-size:38px;font-weight:600;fill:var(--ink)}.label{font-size:13px;fill:var(--muted)}.head{font-size:11px;font-weight:600;fill:var(--muted);letter-spacing:.08em}.repo{font-size:12.5px;fill:var(--ink)}.num{font-size:12.5px;font-weight:600;fill:var(--ink)}</style>
 <rect x="0.5" y="0.5" width="859" height="325" rx="12" fill="var(--bg)" stroke="var(--line)"/>
 <text class="head" x="28" y="38">OPEN-SOURCE CONTRIBUTIONS</text>
-<text class="big" x="28" y="88">54</text>
+<text class="big" x="28" y="88">55</text>
 <text class="label" x="98" y="82">merged PRs &amp; MRs</text>
 <text class="big" x="28" y="136">10</text>
 <text class="label" x="98" y="130">external repositories</text>
@@ -13,26 +13,26 @@
 <text class="repo" x="324" y="70">materialsproject/atomate2</text>
 <rect x="572" y="60" width="222" height="9" rx="4.5" fill="var(--track)"/>
 <rect x="572" y="60" width="222.0" height="9" rx="4.5" fill="var(--bar)"/>
-<text class="num" x="806" y="70">29</text>
+<text class="num" x="806" y="70">30</text>
 <text class="repo" x="324" y="95">hackingmaterials/robocrystallographer</text>
 <rect x="572" y="85" width="222" height="9" rx="4.5" fill="var(--track)"/>
-<rect x="572" y="85" width="53.6" height="9" rx="4.5" fill="var(--bar)"/>
+<rect x="572" y="85" width="51.8" height="9" rx="4.5" fill="var(--bar)"/>
 <text class="num" x="806" y="95">7</text>
 <text class="repo" x="324" y="120">CederGroupHub/alabos</text>
 <rect x="572" y="110" width="222" height="9" rx="4.5" fill="var(--track)"/>
-<rect x="572" y="110" width="30.6" height="9" rx="4.5" fill="var(--bar)"/>
+<rect x="572" y="110" width="29.6" height="9" rx="4.5" fill="var(--bar)"/>
 <text class="num" x="806" y="120">4</text>
 <text class="repo" x="324" y="145">materialsproject/matbench</text>
 <rect x="572" y="135" width="222" height="9" rx="4.5" fill="var(--track)"/>
-<rect x="572" y="135" width="30.6" height="9" rx="4.5" fill="var(--bar)"/>
+<rect x="572" y="135" width="29.6" height="9" rx="4.5" fill="var(--bar)"/>
 <text class="num" x="806" y="145">4</text>
 <text class="repo" x="324" y="170">materialsproject/emmet</text>
 <rect x="572" y="160" width="222" height="9" rx="4.5" fill="var(--track)"/>
-<rect x="572" y="160" width="23.0" height="9" rx="4.5" fill="var(--bar)"/>
+<rect x="572" y="160" width="22.2" height="9" rx="4.5" fill="var(--bar)"/>
 <text class="num" x="806" y="170">3</text>
 <text class="repo" x="324" y="195">cplin/pheasy (GitLab)</text>
 <rect x="572" y="185" width="222" height="9" rx="4.5" fill="var(--track)"/>
-<rect x="572" y="185" width="23.0" height="9" rx="4.5" fill="var(--accent2)"/>
+<rect x="572" y="185" width="22.2" height="9" rx="4.5" fill="var(--accent2)"/>
 <text class="num" x="806" y="195">3</text>
 <line x1="28" y1="224" x2="832" y2="224" stroke="var(--line)"/>
 <text class="head" x="28" y="246">MERGED PR/MR CADENCE BY QUARTER (2023 to 2026)</text>
@@ -40,7 +40,7 @@
 <text x="28.0" y="309" fill="var(--muted)" font-size="10.5">2023</text>
 <rect x="78.8" y="289.0" width="42.8" height="5.0" rx="2" fill="var(--bar)" opacity="0.48"><title>2023 Q2: 2 merged</title></rect>
 <rect x="129.5" y="289.0" width="42.8" height="5.0" rx="2" fill="var(--bar)" opacity="0.48"><title>2023 Q3: 2 merged</title></rect>
-<rect x="180.2" y="285.7" width="42.8" height="8.3" rx="2" fill="var(--bar)" opacity="0.57"><title>2023 Q4: 7 merged</title></rect>
+<rect x="180.2" y="285.9" width="42.8" height="8.1" rx="2" fill="var(--bar)" opacity="0.57"><title>2023 Q4: 7 merged</title></rect>
 <rect x="231.0" y="289.0" width="42.8" height="5.0" rx="2" fill="var(--bar)" opacity="0.47"><title>2024 Q1: 1 merged</title></rect>
 <text x="231.0" y="309" fill="var(--muted)" font-size="10.5">2024</text>
 <rect x="281.8" y="291.0" width="42.8" height="3.0" rx="2" fill="var(--track)" opacity="1"><title>2024 Q2: 0 merged</title></rect>
@@ -55,6 +55,6 @@
 <text x="637.0" y="309" fill="var(--muted)" font-size="10.5">2026</text>
 <rect x="687.8" y="289.0" width="42.8" height="5.0" rx="2" fill="var(--bar)" opacity="0.47"><title>2026 Q2: 1 merged</title></rect>
 <rect x="738.5" y="289.0" width="42.8" height="5.0" rx="2" fill="var(--bar)" opacity="0.50"><title>2026 Q3: 3 merged</title></rect>
-<rect x="789.2" y="256.0" width="42.8" height="38.0" rx="2" fill="var(--bar)" opacity="1.00"><title>2026 Q4: 32 merged</title></rect>
+<rect x="789.2" y="256.0" width="42.8" height="38.0" rx="2" fill="var(--bar)" opacity="1.00"><title>2026 Q4: 33 merged</title></rect>
 <text x="832" y="309" fill="var(--muted)" font-size="10.5" text-anchor="end">updated 2026-11-27</text>
 </svg>
